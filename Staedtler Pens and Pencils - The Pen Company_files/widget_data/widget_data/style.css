@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'revsglobal-pr-mod';
+  src:  url('fonts/revsglobal-pr-mod.eot?t7ksre');
+  src:  url('fonts/revsglobal-pr-mod.eot?t7ksre#iefix') format('embedded-opentype'),
+    url('fonts/revsglobal-pr-mod.woff2?t7ksre') format('woff2'),
+    url('fonts/revsglobal-pr-mod.ttf?t7ksre') format('truetype'),
+    url('fonts/revsglobal-pr-mod.woff?t7ksre') format('woff'),
+    url('fonts/revsglobal-pr-mod.svg?t7ksre#revsglobal-pr-mod') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ruk-icon-"], [class*=" ruk-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'revsglobal-pr-mod' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ruk-icon-check:before {
+  content: "\e903";
+}
+.ruk-icon-cross:before {
+  content: "\e904";
+}
+.ruk-icon-edit:before {
+  content: "\e914";
+}
+.ruk-icon-funnel:before {
+  content: "\e912";
+}
+.ruk-icon-images:before {
+  content: "\e905";
+}
+.ruk-icon-link:before {
+  content: "\e915";
+}
+.ruk-icon-magnifying-glass:before {
+  content: "\e913";
+}
+.ruk-icon-reviews-logo-01:before {
+  content: "\e600";
+}
+.ruk-icon-full-star-01:before {
+  content: "\e601";
+}
+.ruk-icon-empty-star-01:before {
+  content: "\e602";
+}
+.ruk-icon-arrow-down-01:before {
+  content: "\e603";
+}
+.ruk-icon-positive-1-01:before {
+  content: "\e604";
+}
+.ruk-icon-negative-1-01:before {
+  content: "\e605";
+}
+.ruk-icon-chart-lines-1-01:before {
+  content: "\e606";
+}
+.ruk-icon-positive-2-01:before {
+  content: "\e607";
+}
+.ruk-icon-email-1-01:before {
+  content: "\e608";
+}
+.ruk-icon-phone-1-01:before {
+  content: "\e609";
+}
+.ruk-icon-location-1-01:before {
+  content: "\e60a";
+}
+.ruk-icon-author-1-01:before {
+  content: "\e60b";
+}
+.ruk-icon-positive-3-01:before {
+  content: "\e60c";
+}
+.ruk-icon-thumbs-up-1-01:before {
+  content: "\e60d";
+}
+.ruk-icon-report-1-01:before {
+  content: "\e60e";
+}
+.ruk-icon-arrow-down-thin-1-01:before {
+  content: "\e60f";
+}
+.ruk-icon-arrow-up-thin-1-01:before {
+  content: "\e610";
+}
+.ruk-icon-menu-1-01:before {
+  content: "\e611";
+}
+.ruk-icon-key-1-01:before {
+  content: "\e612";
+}
+.ruk-icon-dashboard-1-01:before {
+  content: "\e613";
+}
+.ruk-icon-store-1-01:before {
+  content: "\e614";
+}
+.ruk-icon-iphone-1-01:before {
+  content: "\e615";
+}
+.ruk-icon-col-term-1-01:before {
+  content: "\e616";
+}
+.ruk-icon-group-1-01:before {
+  content: "\e617";
+}
+.ruk-icon-cog-1-01:before {
+  content: "\e618";
+}
+.ruk-icon-power-1-01:before {
+  content: "\e619";
+}
+.ruk-icon-ellipsis-1-01:before {
+  content: "\e61a";
+}
+.ruk-icon-share-1-01:before {
+  content: "\e61b";
+}
+.ruk-icon-tooltip-arrow-1-01:before {
+  content: "\e61c";
+}
+.ruk-icon-chart-pie-1-01:before {
+  content: "\e61d";
+}
+.ruk-icon-reply-arrow-1-01:before {
+  content: "\e61e";
+}
+.ruk-icon-moderate-1-01:before {
+  content: "\e61f";
+}
+.ruk-icon-google-plus-1-01:before {
+  content: "\e620";
+}
+.ruk-icon-facebook-1-01:before {
+  content: "\e621";
+}
+.ruk-icon-twitter-1-01:before {
+  content: "\e622";
+}
+.ruk-icon-arrow-right-1-01:before {
+  content: "\e623";
+}
+.ruk-icon-arrow-left-1-01:before {
+  content: "\e624";
+}
+.ruk-icon-reviews-us-1-01:before {
+  content: "\e625";
+}
+.ruk-icon-percentage-star-25-01:before {
+  content: "\e626";
+}
+.ruk-icon-percentage-star-50-01:before {
+  content: "\e627";
+}
+.ruk-icon-percentage-star-75-01:before {
+  content: "\e628";
+}
+.ruk-icon-reviewio-logo-01:before {
+  content: "\e629";
+}
+.ruk-icon-arrow-right-thin-1-01:before {
+  content: "\e62a";
+}
+.ruk-icon-arrow-left-thin-1-01:before {
+  content: "\e62b";
+}
+.ruk-icon-reviews-min-90deg-1-01:before {
+  content: "\e62c";
+}
+.ruk-icon-reviews-plus-90deg-1-01:before {
+  content: "\e62d";
+}
+.ruk-icon-reviews-0deg-1-01:before {
+  content: "\e62e";
+}
+.ruk-icon-question-1-01:before {
+  content: "\e62f";
+}
+.ruk-icon-answer-1-01:before {
+  content: "\e630";
+}
+.ruk-icon-rev-star-xsmall-01:before {
+  content: "\e631";
+}
+.ruk-icon-rev-logo-xsmall-01:before {
+  content: "\e632";
+}
+.ruk-icon-rev-star-small-01:before {
+  content: "\e633";
+}
+.ruk-icon-rev-logo-small-01:before {
+  content: "\e634";
+}
+.ruk-icon-reviews-logo-2-01:before {
+  content: "\e635";
+}
+.ruk-icon-reviews-min-90deg-1--german-01:before {
+  content: "\e900";
+}
+.ruk-icon-reviews-plus-90deg-1--german-01:before {
+  content: "\e901";
+}
+.ruk-icon-reviews-0deg-1--german-01:before {
+  content: "\e902";
+}
+.ruk-icon-line-arrow--left:before {
+  content: "\e906";
+}
+.ruk-icon-line-arrow--right:before {
+  content: "\e907";
+}
+.ruk-icon-line-cross:before {
+  content: "\e908";
+}
+.ruk-icon-line-email:before {
+  content: "\e909";
+}
+.ruk-icon-line-facebook:before {
+  content: "\e90a";
+}
+.ruk-icon-line-instagram:before {
+  content: "\e90b";
+}
+.ruk-icon-line-pinterest:before {
+  content: "\e90c";
+}
+.ruk-icon-percentage-star--0:before {
+  content: "\e90d";
+}
+.ruk-icon-percentage-star--25:before {
+  content: "\e90e";
+}
+.ruk-icon-percentage-star--50:before {
+  content: "\e90f";
+}
+.ruk-icon-percentage-star--75:before {
+  content: "\e910";
+}
+.ruk-icon-percentage-star--100:before {
+  content: "\e911";
+}
+.ruk-icon-line-load-more:before {
+  content: "\e916";
+}
+.ruk-icon-line-review-icon:before {
+  content: "\e917";
+}
+.ruk-icon-reviewsio-logo-text-small:before {
+  content: "\e918";
+}

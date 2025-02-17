@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Vertical Review Box</title>
+        <script src="jquery.min.js"></script>
+        <link rel="stylesheet" href="widget_data/style.css">
+
+        <link rel="stylesheet" href="widget_data/style_002.css">
+
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie8.css"/>
+        <![endif]-->
+
+        <link href="widget_data/css.css" rel="stylesheet">
+        <style>
+        .clearfix:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        </style>
+    </head>
+    <body style="overflow:auto;">
+    <div id="fb-root"></div>
+        <div id="floatingWidgetBtn" class="FloatingWidgetButton--right isOpen">
+            <div class="FWB__number">
+                       <span class="number__big">4.9</span>
+                <span class="number__small">
+                           / 5
+                       </span>
+            </div>
+            <div class="RatingStars RatingStars--small js-ruk_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+            <div class="FWB__subheading">
+                <div class="subheading__small">Verified</div>
+                <div class="subheading__big">Customer Feedback</div>
+            </div>
+            <div class="FW__footer">
+                <div class="ReviewsLogo ReviewsLogo--small">
+                    <img src="widget_data/reviewsio-logo.svg" style="width: 100%; vertical-align:middle">
+                </div>
+            </div>
+            <div id="FW_dismiss_btn" class="FW__dismiss" style="display: none;">
+                <span class="close-icon-container">
+                    <i class="ruk-icon-cross"></i>
+                </span>
+                <span class="dismiss-text">
+                    Dismiss
+                </span>
+            </div>
+        </div>
+
+        <div id="floatingWidgetMain" class="FloatingWidget--right FloatingWidget--v2">
+            <div class="FloatingWidget__closeBtn">
+                <i class="ruk-icon-cross"></i>
+            </div>
+            <div id="photoBoxFade" onclick="hideImage()"></div>
+            <div id="photoBox"></div>
+            <div class="vw__header">
+                <div class="header__left">
+                    <div class="RatingStatistics">
+                        <div class="RatingStatistics__Number js-ruk_rating">4.94</div>
+                        <div class="RatingStatistics__Text">
+                            rating <span class="hiddenOnMobile">based on</span>
+                        </div>
+                    </div>
+                    <div class="RatingStatistics">
+                        <div class="RatingStatistics__Number js-ruk_count">8,771</div>
+                        <div class="RatingStatistics__Text">reviews</div>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="RatingVerdict">
+                        <span class="js-ruk_word">Excellent</span>
+                    </div>
+                    <div class="RatingStars RatingStars--medium js-ruk_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="vw__content">
+                <div class="content__message">
+                    You already liked this review
+                </div>
+
+                <div class="widgetSpinner"></div>
+                <div class="reviewsContainer"><div class="reviewWrap" data-id="24791464">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Very happy with the fountain pens received. Nicely done personalisation.
+Very hapoy with the customer service and communication. Thanks!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Very happy with the fountain pens received. Nicely done personalisation.
+Very hapoy with the customer service and communication. Thanks!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">9 hours ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24782620">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Anonymous</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Quick delivery and all items were packaged very securely - I am happy with my purchase!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Quick delivery and all items were packaged very securely - I am happy with my purchase!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 day ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24780892">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-empty-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">I so much appreciate being able to buy parts for my LAMY pen.   All arrived in good shape. …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">I so much appreciate being able to buy parts for my LAMY pen.   All arrived in good shape. </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 day ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24759258">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">I
+ purchased a magnifient Caran d'Ache mechanical pencil for my Valentine.
+  It was here in the US in less than a week and also engraved at a 
+nominal cost.   Thank-you for your outstanding customer service....I w…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">I
+ purchased a magnifient Caran d'Ache mechanical pencil for my Valentine.
+  It was here in the US in less than a week and also engraved at a 
+nominal cost.   Thank-you for your outstanding customer service....I 
+will definitely be a repeat customer! </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">3 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24755069">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Great customer service. Very responsive! Helped to make sure that the pen arrived in time for a birthday…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Great customer service. Very responsive! Helped to make sure that the pen arrived in time for a birthday</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">3 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24747688">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Incredibly
+ helpful company. Very pleased with the support and advice given about a
+ replacement part for my pen. Super quick delivery too, it arrived the 
+next day!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Incredibly
+ helpful company. Very pleased with the support and advice given about a
+ replacement part for my pen. Super quick delivery too, it arrived the 
+next day!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">4 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24746341">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Excellent sevice Two refills arrived on time as predicted.  Well done…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Excellent sevice Two refills arrived on time as predicted.  Well done</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">4 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24744498">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">Excellent
+ prices, wide range and great prices, especially for European pens and 
+stationery. The website is easy to navigate. The shipping costs are 
+reasonable and buyers get a good idea of the cost as items are…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Excellent
+ prices, wide range and great prices, especially for European pens and 
+stationery. The website is easy to navigate. The shipping costs are 
+reasonable and buyers get a good idea of the cost as items are added to 
+the cart. Highly recommended.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">4 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24731695">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Great service as per usual …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Great service as per usual </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">5 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24719597">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Nice pen and helpful service…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Nice pen and helpful service</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">6 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24718440">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Excellent. Lovely nib…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Excellent. Lovely nib</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">6 days ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24706122">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">Phenomenal
+ customer service from these people - polite and quick to respond. I 
+purchased a pen from them in Australia a few weeks ago and wanted to 
+return it for an exchange of a similar item. We communicated b…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Phenomenal
+ customer service from these people - polite and quick to respond. I 
+purchased a pen from them in Australia a few weeks ago and wanted to 
+return it for an exchange of a similar item. We communicated back and 
+forth, and the customer support person was great - he guided me on the 
+nib width selection. I just received my exchange item a few days ago.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24705732">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">The
+ multiple items I ordered arrived sooner than I expected, traveling from
+ the UK to Kalamazoo, Michigan.  The tracking of my order helped me to 
+get my package inside before it froze, a concern I had with sing…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">The
+ multiple items I ordered arrived sooner than I expected, traveling from
+ the UK to Kalamazoo, Michigan.  The tracking of my order helped me to 
+get my package inside before it froze, a concern I had with single digit
+ (f*) weather.  The inks are beautiful and the converters tranformed 
+vintage pens I got on the cheap and gleaned up with nib cleaner.  Thank 
+You Pen Company.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24705279">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Excellent
+ service, very prompt dispatch and high quality item at a very 
+competitive price: goid value and really happy with my Kaweco sketch-up 
+clutch pencil …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Excellent
+ service, very prompt dispatch and high quality item at a very 
+competitive price: goid value and really happy with my Kaweco sketch-up 
+clutch pencil </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24703392">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Fantastic and good service …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Fantastic and good service </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24702149">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Fast shipping and well packed!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Fast shipping and well packed!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24689838">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Excellent service, the 18 years olds were very pleased especially with the personalisation.
+…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Excellent service, the 18 years olds were very pleased especially with the personalisation.
+</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24672802">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Got what I wanted…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Got what I wanted</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24672009">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Very easy to order and rompt delivery, thank you.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Very easy to order and rompt delivery, thank you.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24670520">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Absolutely
+ love this company as they sell the Schidt refills at a great price. 
+Will definitely be back again to buy more refills. …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Absolutely
+ love this company as they sell the Schidt refills at a great price. 
+Will definitely be back again to buy more refills. </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24663842">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Item as described and delivery faster than expected. Great service…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Item as described and delivery faster than expected. Great service</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24659753">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">A brilliant family pen company, nothing is too much to help!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">A brilliant family pen company, nothing is too much to help!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24642649">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Good quality service, delivered ahead of time, can’t fault anything …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Good quality service, delivered ahead of time, can’t fault anything </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24639664">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Received
+ the item quickly, just as described. Will definitely use them again. I 
+have stopped using other sites due to the amount of fakes out there. 
+Would recommend.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Received
+ the item quickly, just as described. Will definitely use them again. I 
+have stopped using other sites due to the amount of fakes out there. 
+Would recommend.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"><div style="background-image:url('https://media.reviews.co.uk/resize/create?format=original&amp;width=130&amp;height=100&amp;src=https://s3-eu-west-1.amazonaws.com/reviewscouk/assets/upload-ed9042e0682d41d2d02b5191e3c50ed3-1738562742.jpg');" onclick="displayImage('https://s3-eu-west-1.amazonaws.com/reviewscouk/assets/upload-ed9042e0682d41d2d02b5191e3c50ed3-1738562742.jpg')"></div></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">1 week ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24634783">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Always awsome. Fast delivery, and the website makes it easy for me to select exactly the diary format and design I want.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Always awsome. Fast delivery, and the website makes it easy for me to select exactly the diary format and design I want.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24631217">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">Amazing
+ service!  I was so pleased to find this family-owned business offering 
+excellent quality products and incomparable personal service.  I was in 
+search of refills that were quite important to me, but of m…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Amazing
+ service!  I was so pleased to find this family-owned business offering 
+excellent quality products and incomparable personal service.  I was in 
+search of refills that were quite important to me, but of minimal value 
+in the grand scheme of things, but The Pen Company treated me like a 
+Very Important Customer!  I'm "across the pond" in the US, but I will be
+ recommending them to everyone I know and I will definitely be back!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24629731">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">The
+ process of ordering from the pen company was a dream. Very efficient 
+and helpful when I phoned for some advice. Just wanted to get into 
+trying a fountain pen to write with after many years of not using one.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">The
+ process of ordering from the pen company was a dream. Very efficient 
+and helpful when I phoned for some advice. Just wanted to get into 
+trying a fountain pen to write with after many years of not using one. 
+Glad I chose to purchase the Lamy Safari from The Pen Company.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24627940">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Holy
+ smokes... the packing was incredible. Communication was quick when I 
+reached out to them concerning a matter. Will trade with them again. 
+Thanks so much!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Holy
+ smokes... the packing was incredible. Communication was quick when I 
+reached out to them concerning a matter. Will trade with them again. 
+Thanks so much!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24626835">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">I
+ have found The Pen Company to be a fantastic company to do business 
+with. Their customer service is excellent as is their pricing. …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">I
+ have found The Pen Company to be a fantastic company to do business 
+with. Their customer service is excellent as is their pricing. </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24626450">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Anonymous</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Torbjørn Folkestad …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Torbjørn Folkestad </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24624980">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Good and fast. Very efficient. Pen came in a well packaged box…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Good and fast. Very efficient. Pen came in a well packaged box</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24594630">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Anonymous</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Very
+ fast dispatch of my order, quick and clear communication via automaric 
+emails, and the best is the smart filter feature for diaries on the 
+website. Perfect purchase, thanks a lot.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Very
+ fast dispatch of my order, quick and clear communication via automaric 
+emails, and the best is the smart filter feature for diaries on the 
+website. Perfect purchase, thanks a lot.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24590425">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Great service &amp; communication …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Great service &amp; communication </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24589026">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Anonymous</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Excellent service.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Excellent service.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24578361">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Shipping to the US (California) was very affordable and very fast - less than one week. Thank you…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Shipping to the US (California) was very affordable and very fast - less than one week. Thank you</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24577216">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Easy shopping, good prices and considerably quick shipping considering the distance. Happy with my purchases!!…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Easy shopping, good prices and considerably quick shipping considering the distance. Happy with my purchases!!</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24575944">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Great
+ company. I changed my mind about what I wanted just after ordering so 
+called so see if I could amend the order. They answered the phone 
+quickly and were very helpful! Thanks. …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Great
+ company. I changed my mind about what I wanted just after ordering so 
+called so see if I could amend the order. They answered the phone 
+quickly and were very helpful! Thanks. </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24574304">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Easy
+ to order and efficient delivery of a quality product. The pen holder 
+was a Christmas present bought to replace one bought well over 30 years 
+previously - so definitely worth every penny! …</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Easy
+ to order and efficient delivery of a quality product. The pen holder 
+was a Christmas present bought to replace one bought well over 30 years 
+previously - so definitely worth every penny! </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24573805">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText">
+                            <p class="short_text"><span class="review_short_text">Mine
+ was a simple order, refills for a ST DuPont pen, but one impossible to 
+find on the high street. And most online suppliers would only offer in 
+packs of 10, enough for several lifetimes and a silly price. So…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Mine
+ was a simple order, refills for a ST DuPont pen, but one impossible to 
+find on the high street. And most online suppliers would only offer in 
+packs of 10, enough for several lifetimes and a silly price. So it was 
+good to find the Pen Company offering smaller orders and a better price.
+ Delivery was quick and well packed so it's good to have my favourite 
+pen back in use. </span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div><div class="reviewWrap" data-id="24573576">
+                        <div class="reviewHeader cfx">
+                            <p class="author">Verified Customer</p>
+                            <div class="reviewStarsWrap js-review_stars"><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i><i class="ruk-icon-full-star-01 RatingStars__star"></i></div>
+                        </div>
+                        <div class="reviewText no_expand">
+                            <p class="short_text"><span class="review_short_text">Fair price for top brand marker pen products with prompt delivery; which put ticks in all the boxes.…</span> <a class="review__expandBtn">+</a></p>
+                            <p class="long_text"><span class="review_text">Fair price for top brand marker pen products with prompt delivery; which put ticks in all the boxes.</span> <a class="review__expandBtn">-</a></p>
+                        </div>
+                        <div class="review_images"></div>
+                        <div class="ReviewControls">
+                            <div class="RC__btn RC__btn--thumbsup">
+                                <i class="ruk-icon-thumbs-up-1-01"></i>
+
+                                <div class="btn__countBadge disabled"></div>
+                            </div>
+                            <div class="RC__btn RC__btn--share">
+                                <i class="ruk-icon-share-1-01"></i>
+
+                                <div class="share__options">
+                                    <div class="options__item options__item--fb" target="_blank">
+                                        <i class="ruk-icon-facebook-1-01"></i>
+                                    </div>
+                                    <div class="options__item options__item--twitter">
+                                        <i class="ruk-icon-twitter-1-01"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewMeta">
+                            <p><span class="review_meta">2 weeks ago</span></p>
+                        </div>
+                    </div></div>
+            </div>
+            <a href="http://www.reviews.co.uk/company-reviews/store/the-pen-company?utm_source=the-pen-company&amp;utm_medium=widget&amp;utm_campaign=vertical" target="_blank" class="vw__footer">
+                <span class="footer__moreRevs">Read all reviews</span>
+                    <div class="ReviewsLogo ReviewsLogo--small">
+                        <img src="widget_data/reviewsio-logo.svg" style="width: 104px; vertical-align:middle">
+                    </div>
+            </a>
+        </div>
+
+        <script type="text/javascript">
+
+            var ready = false, widget, widget_open, review_template = $(".reviewWrap");
+
+            var floatPosition = 'right';
+            var appendedRight = '';
+            if(floatPosition == 'right') {
+                appendedRight = '--right';
+                document.getElementById("floatingWidgetBtn").className = "FloatingWidgetButton--right";
+
+                document.getElementById("floatingWidgetMain").classList.remove("FloatingWidget");
+                document.getElementById("floatingWidgetMain").className = "FloatingWidget--right";
+                document.getElementById("floatingWidgetMain").className += " FloatingWidget--v2";
+            }
+
+            widget = document.querySelector('.FloatingWidget' + appendedRight);
+            widget_open = document.querySelector('.FloatingWidgetButton' + appendedRight);
+            widget_close = document.querySelector('.FloatingWidget__closeBtn');
+
+            // Add click event listener for opening the widget
+            widget_open.addEventListener('click', function () {
+
+                // Apply css classes to hide widget button
+                widget_open.classList.add("isTransitioning");
+                widget_open.classList.remove("isOpen");
+
+                // Apply css classes to display widget
+                widget.classList.add("isOpen");
+
+                // Fire event to parent window to expand the iframe
+                window.parent.postMessage('RUKFloatingWidget'+appendedRight+'#Expand', '*');
+            });
+
+            // Add click event listener for closing the widget
+            widget_close.addEventListener('click', function () {
+
+                // Apply css classes to hide the widget
+                widget.classList.remove("isOpen");
+
+                // Apply css classes to display the widget button
+                widget_open.classList.add("isOpen");
+                widget_open.classList.remove('isTransitioning');
+
+                // Fire event to parent window to expand the iframe
+                window.parent.postMessage('RUKFloatingWidget'+appendedRight+'#Retract', '*');
+            });
+
+            // Enable cross origin support in jQuery
+            jQuery.support.cors = true;
+
+            // Fetch first reviews
+            fetchMoreReviews();
+
+            /**
+             * Gets more reviews.
+             */
+            function fetchMoreReviews() {
+
+                var keyword = "";
+                if (keyword!="" && keyword!="undefined") {
+                  var apiUrl = 'https://api.reviews.co.uk/timeline-legacy/data?store=the-pen-company&per_page=40&keyword=';
+                } else {
+                  var apiUrl = 'https://api.reviews.co.uk/merchant/latest?store=the-pen-company&limit=40&tag=&branch=';
+                }
+
+                $.ajax({
+                    dataType: 'json',
+                    url: apiUrl,
+                    timeout: 3000,
+                    success: function (data) {
+
+                        if (parseInt(data.stats.total_reviews) < 1){
+                            document.body.style.display = 'none';
+                        }
+
+                        var stars = renderRating(data.stats.average_rating);
+                        var open_button = document.querySelector('.FloatingWidgetButton' + appendedRight);
+
+                        // Update stats in widget open button
+                        var open_button_avg = open_button.querySelector('.number__big');
+                        if(false){
+                            open_button_avg.innerHTML = Number(data.stats.average_rating).toFixed(2);
+                        } else {
+                            open_button_avg.innerHTML = parseFloat(data.stats.average_rating).toFixed(1);
+                        }
+
+                        // Update stars in widget open button
+                        var open_button_stars = open_button.querySelector('.RatingStars');
+                        open_button_stars.innerHTML = stars;
+
+                        // Add css modifier class to button to signify that it is loaded
+                        open_button.classList.add('isOpen');
+
+                        // Update stats in widget
+                        $('.js-ruk_count').html(parseInt(data.stats.total_reviews).toLocaleString());
+                        $('.js-ruk_word').html(translateRatingWord(data.word));
+                        $('.js-ruk_rating').html(parseFloat(data.stats.average_rating).toFixed(2));
+                        $('.js-ruk_stars').html(stars);
+
+
+                        stats_data_avg = parseFloat(data.stats.average_rating).toFixed(2);
+                        stats_data_count = parseInt(data.stats.total_reviews).toLocaleString();
+                                if (false){
+
+                            $('#floatingWidgetBtn').css('height','113px');
+                            $('.FWB__number').hide();
+                            $('.subheading__small').html('<p class="stat"><b>' + stats_data_avg + '</b> Average</p>');
+                            $('.subheading__big').html('<p class="stat"><b>' + stats_data_count + '</b> Reviews</p>');
+                        }
+
+                        if (ready === false) {
+
+                            // When loading the first reviews, we will make sure that the review container is empty
+                            $('.reviewsContainer').empty();
+                        }
+
+                        // Remove .loading from any elements in .FloatingWidget
+                        var loading_elements = document.querySelectorAll('.FloatingWidget'+appendedRight+' .loading');
+                        for (i = 0; i < loading_elements.length; i++) {
+                            loading_elements[i].classList.remove('loading');
+                        }
+
+                        // Display reviews
+                        data.reviews.forEach(function (review_data) {
+
+                            // Compile review data into html template
+                            var review = renderReview(review_data)[0];
+
+                            // Set id of review on review element
+                            review.setAttribute('data-id', '' + review_data.store_review_id);
+
+                            // Append review to widget contents
+                            document.querySelector('.reviewsContainer').appendChild(review);
+
+                            // Initialise buttons within review element
+                            initialiseExpandReviewButtons(review);
+                            initialiseHelpfulButton(review, review_data);
+
+                            // Generate sharable url for review
+                            var url = 'https://media.reviews.co.uk/company-snippet/' + review_data.store_review_id;
+
+                            // Initialise social share buttons
+                            initialiseSocialShareButton(review.querySelector('.options__item.options__item--fb'), generateFacebookShareLink(url));
+                            initialiseSocialShareButton(review.querySelector('.options__item.options__item--twitter'), generateTwitterShareLink(url));
+                        });
+
+                        // Dispatch an event to signal that more reviews have been loaded
+                        window.parent.postMessage({
+                            name: 'RUKFloatingWidget'+appendedRight+'#MoreReviewsLoaded',
+                            data: {height: $(".FloatingWidget" + appendedRight).outerHeight()}}
+                        , '*');
+
+                        if (ready === false) {
+                            ready = true;
+
+                            // Dispatch event to window parent to signal that widget is ready
+                            window.parent.postMessage('RUKFloatingWidget' + appendedRight + '#Ready', '*');
+
+                            if(false){
+                                document.getElementById('floatingWidgetBtn').click();
+                            }
+
+                        }
+                    }
+                });
+            }
+
+            /**
+             * Initialises a social share button for a given url.
+             *
+             * @param {HTMLElement} button
+             * @param {string} url
+             */
+            function initialiseSocialShareButton(button, url) {
+                button.addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    // Open url in new window
+                    window.open(url,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');
+                });
+            }
+
+            /**
+             * Generates a facebook share link for sharing a given url.
+             *
+             * @param {string} url
+             * @return {string}
+             */
+            function generateFacebookShareLink(url) {
+                return 'http://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+            }
+
+            /**
+             * Generates a twitter share link for sharing a given url.
+             *
+             * @param {string} url
+             * @return {string}
+             */
+            function generateTwitterShareLink(url) {
+                return 'http://twitter.com/intent/tweet?status=' + encodeURIComponent(url);
+            }
+
+            /**
+             * Initialises any buttons that expand the text of a review to show any hidden content.
+             *
+             * @param {HTMLElement} elem
+             */
+             function initialiseExpandReviewButtons(elem) {
+                 var more_buttons = elem.querySelectorAll('.review__expandBtn');
+                 for(var i = 0; i < more_buttons.length; i++) {
+                     more_buttons[i].addEventListener('click', function(event) {
+                         var targetElement = event.target || event.srcElement;
+                         targetElement.parentElement.parentElement.classList.toggle('expanded');
+                     });
+                 }
+             };
+
+            /**
+             * Initialises any buttons that expand the text of a review to show any hidden content.
+             *
+             * @param {HTMLElement} review_elem
+             * @param {{}} review_data
+             */
+            function initialiseHelpfulButton(review_elem, review_data) {
+                var more_buttons = review_elem.querySelectorAll('.RC__btn.RC__btn--thumbsup')
+
+
+                for(var i = 0; i < more_buttons.length; i++) {
+                    var review_id = more_buttons[i].closest('.reviewWrap').getAttribute('data-id');
+                    if (! review_id) {
+                        throw new Error('Unable to determine id of review');
+                    }
+
+                    // Set the number of votes that the review has had
+                    var count_badge = more_buttons[i].querySelector('.btn__countBadge');
+                    if ('votes' in review_data && review_data.votes > 0 && count_badge !== null) {
+                        count_badge.innerHTML = review_data.votes;
+                    } else {
+                        count_badge.classList.add('disabled');
+                    }
+
+                    // When the button is clicked for the first time we will flag the review as helpful
+                    more_buttons[i].addEventListener('click', function () {
+                        flagReviewAsHelpful(this, review_id);
+
+                        // Add new listener that lets the user know that they have already flagged the review as helpful
+                        this.addEventListener('click', function () {
+                            flashDuplicateVoteMessage();
+                        });
+                    }, {once: true});
+                }
+            }
+
+            /**
+             * Flashes a message to the user informing them that they have already flagged a review as helpful.
+             */
+            function flashDuplicateVoteMessage() {
+                var error_message = document.querySelector('.content__message');
+
+                // Activate error message
+                error_message.classList.add('isActive');
+
+                // Set time to deactivate message
+                setTimeout(function () {
+                    error_message.classList.remove('isActive');
+                }, 3000);
+            }
+
+            /**
+             * Flags a review as helpful.
+             *
+             * @param {HTMLElement} helpful_button The helpful button
+             * @param {int} review_id The id of the review.
+             */
+            function flagReviewAsHelpful(helpful_button, review_id) {
+                $.ajax({
+                    url:("https://api.reviews.co.uk/merchant/vote?store=" + (encodeURIComponent('the-pen-company')) + "&review_id=" + review_id),
+                    success: function (data) {
+                        var count_badge, vote_count;
+                        count_badge = helpful_button.querySelector('.btn__countBadge');
+                        vote_count = parseInt(count_badge.innerHTML);
+
+                        if (data.success === true) {
+
+                            // Increment number of votes
+                            count_badge.innerHTML = (Number.isNaN(vote_count) ? 0 : vote_count)  + 1;
+
+                            // Show count badge
+                            count_badge.classList.remove('disabled');
+                        } else {
+                            flashDuplicateVoteMessage();
+                        }
+
+                        // Add css modifier class to button
+                        helpful_button.classList.add('completed');
+                    }
+                });
+            }
+
+            function renderReview(review) {
+                var html = review_template.clone();
+
+                var name = (review.reviewer.first_name != null ? review.reviewer.first_name : 'Anon') + ' ' + (review.reviewer.last_name != null ? review.reviewer.last_name : '');
+                var ratingHtml = renderRating(review.rating);
+                var shortComments = review.comments.substring(0, 210) + '&hellip;';
+                var comments = review.comments;
+
+                name = name.trim();
+
+                // Overide Anonymous Name
+                if ('undefined' != 'undefined') {
+                    if (name == 'Anon' || name == 'Anonymous') {
+                        name = 'undefined';
+                    }
+                }
+
+                html.find('.author').html(name);
+                html.find('.review_rating').html(ratingHtml);
+                html.find('.review_short_text').html(shortComments);
+                html.find('.review_text').html(comments);
+                if('false' != 'true') {
+                    if(false) {
+                        html.find('.review_meta').html(formatDate(review.date_created));
+                    } else {
+                        html.find('.review_meta').html(review.date);
+                    }
+
+                }
+                html.find('.js-review_stars').html(renderRating(review.rating));
+                html.find('.review_images').html(reviewImages(review.images));
+
+                if (!comments || comments && !(comments.length > 210)) {
+                    html.find('.reviewText').addClass('no_expand');
+                }
+
+                return html;
+            }
+
+            function formatDate(date) {
+                var jsDate = new Date(date.replace(' ', 'T'));
+                var month = jsDate.getMonth() + 1;
+                if(month < 10) {
+                    month = '0' + month;
+                }
+                var day = jsDate.getDate();
+                if(day < 10) {
+                    day = '0' + day;
+                }
+                var year = jsDate.getFullYear();
+                return day + "." + month + "." + year;
+            };
+
+            function reviewImages(images) {
+                var html = '';
+                for (key in images) {
+                    html += '<div style="background-image:url(\'https://media.reviews.co.uk/resize/create?format=original&width=130&height=100&src=' + images[key].image + '\');" onclick="displayImage(\'' + images[key].image + '\')"></div>';
+                }
+                return html;
+            }
+
+            function displayImage(image) {
+                $('#photoBox').html('<div class="closeButton" onclick="hideImage()">&times;</div><img src="https://media.reviews.co.uk/resize/create?width=400&height=0&src=' + image + '" />');
+                $('#photoBox').fadeIn('normal');
+                $('#photoBoxFade').fadeIn('normal');
+            }
+
+            function hideImage() {
+                $('#photoBox').fadeOut('normal');
+                $('#photoBoxFade').fadeOut('normal');
+            }
+
+            function translateRatingWord(word) {
+                switch(word)	{
+                    case 'Excellent':
+                      word = 'Excellent';
+                      break;
+                    case 'Good':
+                      word = 'Good';
+                      break;
+                    case 'Normal':
+                      word = 'Normal';
+                      break;
+                    case 'Poor':
+                      word = 'Poor';
+                      break;
+                    case 'Terrible':
+                      word = 'Terrible';
+                      break;
+                    case 'No Ratings':
+                      word = 'No Ratings';
+                      break;
+                }
+                return word;
+            }
+
+            // speeds up rendering of list 6% faster
+            function memoizer(func){
+                var cache = {};
+                    return function(){
+                    var key = JSON.stringify(arguments);
+                    if (cache[key]){
+                        return cache[key];
+                    }
+                    else{
+                        val = func.apply(null, arguments);
+                        cache[key] = val;
+                        return val;
+                    }
+                }
+            }
+
+            var renderRating = memoizer(function(rating) {
+                var html = '';
+
+                // Round to nearest quater
+                rating = Math.round(rating * 4) / 4;
+
+                for (key = 1; key <= 5; key++) {
+                    if (key <= rating) {
+                        html += '<i class="ruk-icon-full-star-01 RatingStars__star"></i>';
+                    }
+                    else if (key - 0.25 <= rating) {
+                        html += '<i class="ruk-icon-percentage-star-75-01 RatingStars__star"></i>';
+                    }
+                    else if (key - 0.5 <= rating) {
+                        html += '<i class="ruk-icon-percentage-star-50-01 RatingStars__star"></i>';
+                    }
+                    else if (key - 0.75 <= rating) {
+                        html += '<i class="ruk-icon-percentage-star-25-01 RatingStars__star"></i>';
+                    }
+                    else {
+                        html += '<i class="ruk-icon-empty-star-01 RatingStars__star"></i>';
+                    }
+                }
+                return html;
+            });
+
+            //Init dismiss btn
+            document.getElementById('FW_dismiss_btn').onclick = function(event) {
+                window.parent.postMessage('RUKFloatingWidget'+appendedRight+'#Dismiss', '*');
+            };
+
+            //Polyfill for IE and Closest function
+            if (!Element.prototype.matches) {
+                Element.prototype.matches = Element.prototype.msMatchesSelector ||
+                                            Element.prototype.webkitMatchesSelector;
+            }
+
+            if (!Element.prototype.closest) {
+                Element.prototype.closest = function(s) {
+                    var el = this;
+                    if (!document.documentElement.contains(el)) return null;
+                    do {
+                        if (el.matches(s)) return el;
+                        el = el.parentElement || el.parentNode;
+                    } while (el !== null && el.nodeType === 1);
+                    return null;
+                };
+            }
+
+            //IE8 Polyfill
+
+            if (window.Element && !Element.prototype.closest) {
+                Element.prototype.closest = function(s) {
+                    var matches = (this.document || this.ownerDocument).querySelectorAll(s), i, el = this;
+                    do {
+                        i = matches.length;
+                        while (--i >= 0 && matches.item(i) !== el) {};
+                    } while ((i < 0) && (el = el.parentElement));
+                    return el;
+                };
+            }
+
+            if('normal' == "small"){
+
+if(floatPosition == "right"){
+    $(".FloatingWidgetButton--right").addClass("fwb--small--right");
+} else {
+$(".FloatingWidgetButton").addClass("fwb--small");
+}
+
+window.parent.postMessage('RUKFloatingWidget'+appendedRight+'#Small', '*');
+}
+
+
+
+// 360
+
+// var ro = new ResizeObserver(entries => {
+//   for (let entry of entries) {
+//     const cr = entry.contentRect;
+//     console.log('Element:', entry.target);
+//     console.log(`Element size: ${cr.width}px x ${cr.height}px`);
+//     console.log(`Element padding: ${cr.top}px ; ${cr.left}px`);
+//   }
+// });
+
+// // Observe one or multiple elements
+// ro.observe(document.body);
+
+
+        </script>
+        <style type="text/css">undefined</style>
+    
+    <style>
+        .stat {
+            font-size: 12px !important;
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+            margin-top: 8px;
+            font-weight: normal;
+        }
+    </style>
+
+</body></html>

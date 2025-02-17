@@ -1,0 +1,88 @@
+iframe.RUKFloatingWidget {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0;
+    z-index: 9999999;
+    max-width: 115px;
+    height: 230px;
+    transition-delay:1s;
+}
+
+iframe.RUKFloatingWidget--right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0;
+    z-index: 9999999;
+    max-width: 115px;
+    height: 230px;
+    transition-delay:1s;
+}
+iframe.RUKFloatingWidget.expanded {
+    max-width: 400px !important;
+    height: 600px;
+    transition-delay:0s;
+}
+iframe.RUKFloatingWidget--right.expanded {
+    max-width: 400px !important;
+    height: 600px;
+    transition-delay:0s;
+}
+
+
+iframe.RUKFloatingWidget.small {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0;
+    z-index: 9999999;
+    max-width: 45px;
+    height: 230px;
+    transition-delay:1s;
+}
+
+iframe.RUKFloatingWidget--right.small {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0;
+    z-index: 9999999;
+    max-width: 45px;
+    height: 230px;
+    transition-delay:1s;
+}
+
+@media screen and (max-width:480px) {
+    iframe.RUKFloatingWidget {
+        display:none;
+    }
+    iframe.RUKFloatingWidget--right {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #richSnippetReviewsWidget-defaultContainer {
+      transition: opacity 1s;
+    }
+    .richSnippetReviewsWidget-defaultContainer--faded iframe.RUKFloatingWidget--mobile {
+      display: none !important;
+    }
+    iframe.RUKFloatingWidget--mobile {
+        display:block;
+        top: 70%!important;
+    }
+    iframe.RUKFloatingWidget--mobile.expanded {
+      display: block;
+      top: unset !important;
+    }
+}
